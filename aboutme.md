@@ -14,7 +14,7 @@ Highly adaptable data scientist, software engineer, team leader, and passionate 
 May 2022 – Now
 
 Key Activities and Responsibilities:
-- Led and mentored a team of up to seven Data Scientists, Senior Data Scientists, and Analysts.
+- Led and mentored Data Scientists, Senior Data Scientists, and Analysts.
 - Developed and delivered data science and analytics solutions to critical business challenges.
 - Owned and been accountable for a portfolio of ongoing and project-based work.
 - Developed and built partnerships with stakeholders across Product, Engineering, Design, and other business functions.
