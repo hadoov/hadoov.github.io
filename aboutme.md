@@ -6,25 +6,7 @@ subtitle: I am Hadi
 
 # Hadi Valipour
 
-[LinkedIn](linkedin.com/in/valipour) | (+61) 466608919 | valipour.au@gmail.com | Melbourne, VIC
-
 Highly adaptable data scientist, software engineer, team leader, and passionate about learning and teaching. Analytically minded and self-motivated with a decade of experience collaborating with cross-functional teams in agile environments. Excelled in business problem modeling, machine learning, statistical analysis, and data-driven decision-making. Proficient in statistical methods like regression models, hypothesis testing, confidence intervals, and dimensionality reduction. Experienced in deep learning, autoencoders, recurrent and convolutional neural networks, and graph neural networks. Experienced in developing and delivering data projects in predictive models, pricing, and recommendation systems. Experienced in directing and delivering data projects in customer retention increment and order fulfillment process optimization. Experienced in domain knowledge in various industries like e-commerce, two-sided marketplaces, retail, and media. Excelled in system-level architectural design, Program-specific implementation, and complete software development life-cycle. Educated in Computer Engineering, Artificial Intelligence, and Machine Learning at the graduate level with a good publications record.
-
-## Technical Skills
-
-**Programming and Query**: Python, C++, SQL, R(limited), Java (limited), C# (limited), Rust (limited)
-
-**Libraries/Frameworks**: TensorFlow, Keras, Scikit-learn, NumPy, Pandas, PySpark, PyTorch, AWS SageMaker, NLTK, OpenCV, Databricks
-
-**Database/Warehouse/Stream**: PostgreSQL, MySQL, MongoDB, Redis, Hadoop, Spark, Kafka, RabitMQ, Elasticsearch, Redshift
-
-**Machine Learning**: Regression, Clustering, Neural Networks, Deep Learning, SVM, Decision Trees, Classification, Recommendation Systems, Association Rules, Bayesian Models, Dimensionality Reduction, Boosting and Ensemble Methods
-
-**Software Architectures/Models**: SOA, EDA, DDD, Microservices, Multitier, OOP
-
-**Software Engineering Methodologies**: Agile, Scrum, Kanban
-
-**Development and Documentation Tools**: Git, Jira, Confluence, Gitlab CI/CD
 
 ## Work Experience
 
@@ -54,6 +36,22 @@ Key Activities and Responsibilities:
 - Communicated the data strategy to the company partners and investors.
 - Contributed to the company and team's OKR declaration and initiatives.
 - Briefed executives on data risks and suggested ways to alleviate concerns.
+
+## Technical Skills
+
+**Programming and Query**: Python, C++, SQL, R(limited), Java (limited), C# (limited), Rust (limited)
+
+**Libraries/Frameworks**: TensorFlow, Keras, Scikit-learn, NumPy, Pandas, PySpark, PyTorch, AWS SageMaker, NLTK, OpenCV, Databricks
+
+**Database/Warehouse/Stream**: PostgreSQL, MySQL, MongoDB, Redis, Hadoop, Spark, Kafka, RabitMQ, Elasticsearch, Redshift
+
+**Machine Learning**: Regression, Clustering, Neural Networks, Deep Learning, SVM, Decision Trees, Classification, Recommendation Systems, Association Rules, Bayesian Models, Dimensionality Reduction, Boosting and Ensemble Methods
+
+**Software Architectures/Models**: SOA, EDA, DDD, Microservices, Multitier, OOP
+
+**Software Engineering Methodologies**: Agile, Scrum, Kanban
+
+**Development and Documentation Tools**: Git, Jira, Confluence, Gitlab CI/CD
 
 ## Education
 
