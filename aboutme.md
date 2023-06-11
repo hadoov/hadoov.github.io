@@ -6,7 +6,16 @@ subtitle: I am Hadi
 
 # Hadi Valipour
 
-Highly adaptable data scientist, software engineer, team leader, and passionate about learning and teaching. Analytically minded and self-motivated with a decade of experience collaborating with cross-functional teams in agile environments. Excelled in business problem modeling, machine learning, statistical analysis, and data-driven decision-making. Proficient in statistical methods like regression models, hypothesis testing, confidence intervals, and dimensionality reduction. Experienced in deep learning, autoencoders, recurrent and convolutional neural networks, and graph neural networks. Experienced in developing and delivering data projects in predictive models, pricing, and recommendation systems. Experienced in directing and delivering data projects in customer retention increment and order fulfillment process optimization. Experienced in domain knowledge in various industries like e-commerce, two-sided marketplaces, retail, and media. Excelled in system-level architectural design, Program-specific implementation, and complete software development life-cycle. Educated in Computer Engineering, Artificial Intelligence, and Machine Learning at the graduate level with a good publications record.
+- Highly adaptable data scientist, software engineer, team leader, and passionate about learning and teaching. 
+- Analytically minded and self-motivated with a decade of experience collaborating with cross-functional teams in agile environments. 
+- Excelled in business problem modeling, machine learning, statistical analysis, and data-driven decision-making. 
+- Proficient in statistical methods like regression models, hypothesis testing, confidence intervals, and dimensionality reduction. 
+- Experienced in deep learning, autoencoders, recurrent and convolutional neural networks, and graph neural networks. 
+- Experienced in developing and delivering data projects in predictive models, pricing, and recommendation systems. 
+- Experienced in directing and delivering data projects in customer retention increment and order fulfillment process optimization. 
+- Experienced in domain knowledge in various industries like e-commerce, two-sided marketplaces, retail, and media. 
+- Excelled in system-level architectural design, Program-specific implementation, and complete software development life-cycle. 
+- Educated in Computer Engineering, Artificial Intelligence, and Machine Learning at the graduate level with a good publications record.
 
 ## Work Experience
 
@@ -116,30 +125,9 @@ Diploma in Mathematics and Physics
 
 ## Reviews, Speaks, Memberships
 
-- Reviewer team member in multiple journals and conferences
+- Reviewer at multiple journals and conferences
 - Technical Committee member of Iran Open international Robotics Competitions, 2007
 - National Judge of Khwarizmi Yong Award, Iranian Research Organization for Science and Technology (IROST), 2011
 - Technical Committee member of AUTCUP International Robotics Competitions, Amirkabir Univ. of Tech., 2010
 - ACM (Association for Computing Machinery) Student Member, 2005-2008
 
-## Notable Projects
-
-### Machine Learning-based Matching system (ongoing project)
-
-This project is a part of an entire matching system in Mable Company. The main goal of this project is to increase the fulfillment ratio of aged care and disability care needs in Australia. I am the data science lead in this project and managing all aspects of data science and machine learning to design, develop, deliver, and operate this intelligence matching system in Mable.
-
-### GHRS (Graph-based Hybrid Recommendation System)
-
-This project was a part of a collaboration between industry (Ostadkar Company) and academia (Technical and Vocational University) in Iran. The main goal of this project is to develop a recommender system using a novel approach to increase user engagement in two-sided marketplaces. This is an open-source project, and codes and results have been published in open-source repositories. Some partial results have been published in a research article in the reputed journal Expert Systems with Applications.
-
-### AI-based Dispatching system in an on-demand services marketplace
-
-This project is a part of the dispatching engine in Ostadkar Company. The main goal of this project was to develop a strategy-based dispatching system using artificial intelligence and machine learning models to meet multiple business objectives. I was the data science and tech lead in this project. I managed all aspects of software development, data science, and machine learning to design, develop, deliver, and operate the system in Ostadkar Company.
-
-### Goldiran Retail Sale System
-
-This was a nationwide project, established in ten states at the beginning and extended to all states in Iran. I was the technical lead of this project, leading a team of 15 solution architects, software engineers, and data scientists for two years in the SIB Team company. The main stakeholder of the project was Goldiran Company, the biggest retailer, importer, and after-sale service provider of home and electronic appliances in Iran, partnering with LG Corporation.
-
-### LIMP SDR | A Machine Learning-based Software Defined Radio
-
-LIMP SDR is a Software Defined Radio system developed using multiple statistical machine learning methods. The project was hosted by LIMP (Laboratory for Intelligent Multimedia Processing at the Amirkabir University of Technology), supervised by Professor Homayounpour. The main goal of the project was to increase the performance and robustness of a software-defined radio system using statistical data and machine learning approaches with mathematical proofs. I was the main researcher and contributor to the project during my master’s studies at LIMP.
