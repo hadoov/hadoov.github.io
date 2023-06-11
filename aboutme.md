@@ -178,8 +178,6 @@ Diploma in Mathematics and Physics
 
 ## Honours, Achievements & Awards
 
-- More than 10 scientific articles published in journals or presented in conferences and events
-- Total citations of 240 and h-index of 4 based on Google Scholar
 - Outstanding Paper Award in 15th IEEE/ACIS SNPD Conference, US, 2014
 - Best Paper Award in International Conference of Computer Society of Iran, Iran, 2012
 - Exceptional Talent Admission for graduate studies at Amirkabir University of Technology, Iran, 2009
