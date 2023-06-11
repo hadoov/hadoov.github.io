@@ -73,7 +73,7 @@ Achievements:
 - Increased service purchase retention (one-year period) from 15% to 35% using a service suggestion model.
 - Created an average of ~150 million Rials GSV daily by increasing the retention rate.
 
-### Senior Software Engineer / Data Scientist at Pars Azarakhsh, Tehran, Iran
+### Senior Software Engineer / Data Scientist at Parslib, Tehran, Iran
 Feb 2012 – Dec 2013 (1 yr 11 mos)
 
 Key Activities and Responsibilities:
@@ -82,7 +82,7 @@ Key Activities and Responsibilities:
 - Designed an architecture for a Content Pool system maintaining ~100K content items.
 - Developed Content Pool system with all side systems integration (accounting, billing, CRM, etc.).
 
-### Software Engineer at Pars Azarakhsh, Tehran, Iran
+### Software Engineer at Parslib, Tehran, Iran
 Jan 2010 – Feb 2012 (2 yrs 1 mo)
 
 Key Activities and Responsibilities:
@@ -144,7 +144,7 @@ Allame Helli Pre-College School (Affiliated with NODET), Tehran, Iran
 Pre-College Degree in Mathematics and Physics  
 2003 - 2004
 
-Allame Helli High School (Affiliated with NODET1), Tehran, Iran  
+Allame Helli High School (Affiliated with NODET), Tehran, Iran  
 Diploma in Mathematics and Physics  
 2000 - 2003
 
