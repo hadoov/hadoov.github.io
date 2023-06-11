@@ -148,7 +148,7 @@ Allame Helli High School (Affiliated with NODET), Tehran, Iran
 Diploma in Mathematics and Physics  
 2000 - 2003
 
-## Selected Publications - Google Scholar
+## Selected Publications - [Google Scholar](https://scholar.google.com/citations?user=eTvRSUIAAAAJ)
 
 [1] Z. Z. Darban, and M. Hadi Valipour, “GHRS: Graph-based Hybrid Recommendation System with Application to Movie Recommendation," in Expert Systems with Applications (Impact Factor: 8.7), Vol 200, 2022.
 
