@@ -17,13 +17,13 @@ subtitle: I am Hadi
 - Excelled in system-level architectural design, Program-specific implementation, and complete software development life-cycle. 
 - Educated in Computer Engineering, Artificial Intelligence, and Machine Learning at the graduate level with a good publications record.
 
-## Work Experience
+## Work Experiences
 
 ### Data Science Manager at Mable, Melbourne, Australia
 May 2022 – Now
 
 Key Activities and Responsibilities:
-- Led and mentored Data Scientists, Senior Data Scientists, and Analysts.
+- Led and mentored a team of up to seven Data Scientists, Senior Data Scientists, and Analysts.
 - Developed and delivered data science and analytics solutions to critical business challenges.
 - Owned and been accountable for a portfolio of ongoing and project-based work.
 - Developed and built partnerships with stakeholders across Product, Engineering, Design, and other business functions.
@@ -35,7 +35,7 @@ Key Activities and Responsibilities:
 - Fostered an innovative and collaborative culture within my team and the broader company.
 
 ### Head of Data Science at Ostadkar, Tehran, Iran
-Jul 2019 – March 2022 (2yrs 9 mos)
+Jul 2019 – March 2022 (2 yrs 9 mos)
 
 Key Activities and Responsibilities:
 - Established a data team for the company consisting of five data scientists and engineers.
@@ -45,6 +45,74 @@ Key Activities and Responsibilities:
 - Communicated the data strategy to the company partners and investors.
 - Contributed to the company and team's OKR declaration and initiatives.
 - Briefed executives on data risks and suggested ways to alleviate concerns.
+
+Achievements:
+- Successful Product Rewrite with a newly established team and migrated all processes and data to the new Ostadkar product.
+- Increased Product Reliability by establishing an SRE team and redesigning the broken points (bottlenecks, race conditions, etc.).
+- Increased company Revenue Share (take-rate) from 3% to 10% using an adaptive pricing and revenue model selection.
+- Increased Fulfillment Rate by 20% by developing a ticketing system with an intelligent automatic ticket generation process.
+- Decreased marketing costs using a Markov model for high-value service selection for promotion.
+- Decreased the providers' (suppliers) churn rate by ~30% using a simple regression model and an automatic re-touch process.
+- Increased the number of full-time providers (with the least income per week) by 300% using a probabilistic dispatching model.
+
+### Technical Lead and Head of Data Science at SIB Team, Tehran, Iran
+Dec 2013 – Jul 2019 (5 yrs 8 mos)
+
+Key Activities and Responsibilities:
+- Led engineering and data teams.
+- Established an Agile culture using Scrum by supporting and educating the team.
+- Designed and developed a recommender system using unsupervised methods for the service suggestion process.
+- Developed and led data projects in retention, recommendation, revenue forecasting, fraud detection, and sentiment analysis.
+- Analyzed systems for software products developed in the company.
+- Designed a microservice architecture for the SIB service delivery platform (~1M daily transactions).
+- Designed an architecture for data management in a high amount of service transactions.
+- Designed a multitier enterprise architecture for the SIB sale system in Goldiran company (a nationwide project).
+
+Achievements:
+- Decreased the development to deployment time by 50% using continuous tests, feature flags, and gradual rollout.
+- Increased service purchase retention (one-year period) from 15% to 35% using a service suggestion model.
+- Created an average of ~150 million Rials GSV daily by increasing the retention rate.
+
+### Senior Software Engineer / Data Scientist at Pars Azarakhsh, Tehran, Iran
+Feb 2012 – Dec 2013 (1 yr 11 mos)
+
+Key Activities and Responsibilities:
+- Led development and infrastructure teams in Service Delivery and Content Pool platforms.
+- Developed models in production for sentiment analysis of book reviews, automatic book classification by content, book recommendation, and automatic image labeling for search.
+- Designed an architecture for a Content Pool system maintaining ~100K content items.
+- Developed Content Pool system with all side systems integration (accounting, billing, CRM, etc.).
+
+### Software Engineer at Pars Azarakhsh, Tehran, Iran
+Jan 2010 – Feb 2012 (2 yrs 1 mo)
+
+Key Activities and Responsibilities:
+- Analyzed systems and requirements in the Parslib Service Delivery platform.
+- Developed core modules for the Parslib Service Delivery platform (transaction handling and service life cycle).
+- Developed main interfaces for the Parslib Service Delivery platform.
+
+### Research Assistant at LIMP Laboratory, Tehran, Iran
+Oct 2009 – Feb 2012 (2 yrs 4 mos)
+
+Key Activities and Responsibilities:
+- Researched applications of machine learning methods in communications and digital signal processing.
+- Developed a complete Software-Defined Radio focused on robust digital modulation recognition (C++, Matlab, Python).
+- Researched Emotional Learning control approaches for non-linear problems.
+
+Achievements:
+- Best Paper and Outstanding Paper Awards in CSI and SNDP conferences.
+
+### Software Development Intern at IranAir, Tehran, Iran
+Jun 2008 – Feb 2009 (8 mos)
+
+Key Activities and Responsibilities:
+- Developed modules for an online flight reservation system with Mono and GTK#.
+
+### Research Assistant at Robotics and AI Lab, Tehran, Iran
+Jun 2008 – Feb 2009 (8 mos)
+
+Key Activities and Responsibilities:
+- Developed modules for an online flight reservation system with Mono and GTK#.
+
 
 ## Technical Skills
 
