@@ -74,17 +74,29 @@ Diploma in Mathematics and Physics
 ## Selected Publications - Google Scholar
 
 [1] Z. Z. Darban, and M. Hadi Valipour, “GHRS: Graph-based Hybrid Recommendation System with Application to Movie Recommendation," in Expert Systems with Applications (Impact Factor: 8.7), Vol 200, 2022.
+
 [2] M. Hosseini, A. Naemi, and M. Hadi Valipour, “A Hybrid Machine Learning Model for House Cleaning Service Demand Modeling for High-Seasons in COVID-19 Pandemic,” Prepared to be submitted to PLOS ONE (in progress), 2022.
+
 [3] M. Hadi Valipour, K. N. Maleki and S. Shiry Ghidary, “Optimization of Emotional Learning Approach to Control Systems with Unstable Equilibrium,” in Studies in Computational Intelligence, Volume 569, pp 45-56, Springer International Publishing, 2015.
+
 [4] Z. Z. Darban, and M. Hadi Valipour, “Interval Type-2 Locally Linear Neuro-Fuzzy Model Based on Locally Linear Model Tree.” in Artificial Intelligence and Soft Computing (LNCS), Vol 9119, pp 194-304, Springer International Publishing, 2015.
+
 [5] M. Hadi Valipour, M. A. Mehralian and M. M. Homayounpour “Automatic Digital Modulation Recognition in Presence of Noise using SVM and PSO,” in 6th International Symposium on Telecommunications (IST’2012), Tehran, Iran, 2012. 
+
 [6] M. Hadi Valipour, M. M. Homayounpour and M. A. Mehralian “Digital Modulation Recognition Based on GMM Supervector SVM,” in 17th CSI Annual Conference (CSI’2012), Tehran, Iran, 2012.
+
 [7] M. Hadi Valipour, “Robust Automatic Modulation Recognition using Supervectors and SVM”, Master of Science Thesis, Amirkabir University of Technology, Tehran, Iran, 2012.
+
 [8] K. Niki Maleki, M. Hadi Valipour, Z. Z. Darban, S. M. Achajeloei, and M. R. Jamali, Object Oriented Matrix MEX Wrapper (OOMMW) Pattern for Fast Matrix Computation in Soft Computing Applications, in 2nd World Conference of Computer Science, Turkey, 2011.
+
 [9] K. Niki Maleki, M. Hadi. Valipour, R. Y. Ashrafi, S. Mokari, M. ValadBeigi, M. Akbar, et al., “Scorpius Team Description Paper Soccer Simulation 3D league, Singapore 2010,” in Robocup World Championship, Singapore, 2010. (as part of qualification material)
+
 [10] M. Hadi Valipour, B. AmirZafari, K. N. Maleki and N. Daneshpour, “A Brief Survey of Software Architecture Concepts and Service Oriented Architecture,” in IEEE International Conference on Computer Science and Information Technology (ICCSIT 2009), China, 2009.
+
 [11] K. Niki Maleki, M. Hadi. Valipour, R. Y. Ashrafi, S. Mokari, M. ValadBeigi, and M. R. Jamali, “Scorpius Team Description Paper Virtual Robot Competitions, China 2008,” in Robocup World Championship (Soccer Simulation League), Suzhou, China, 2008. (as part of qualification material).
+
 [12] K. Niki Maleki, M. Hadi. Valipour, R. Y. Ashrafi, S. Mokari, M. ValadBeigi, S. A. Zahiri, and M. R. Jamali, “Scorpius Team Description Paper Virtual Robot Competitions, China 2008,” in Robocup World Championship (Soccer Simulation League), Suzhou, China, 2008. (as part of qualification material).
+
 [13] K. N. Maleki, M. Hadi Valipour, R. Y. Ashrafi, S. Mokari, M. R. Jamali and Caro Lucas, “A Simple Method for Decision Making in RoboCup Soccer Simulation 3D Environment,” Advances in Systems and Informatics, Vol. 5, No. 3, pp 109-116, 2008.
 
 ## Honours, Achievements & Awards
