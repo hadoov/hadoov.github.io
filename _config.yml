@@ -15,6 +15,7 @@ author: Hadi Valipour
 
 navbar-links:
   About Me: "aboutme"
+  My Page: "my-page"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
