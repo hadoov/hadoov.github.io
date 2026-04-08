@@ -1,0 +1,45 @@
+.intro-header.big-img {
+  margin-bottom: 28px;
+}
+
+.pro-hero {
+  margin-bottom: 20px;
+}
+
+.pro-lead {
+  font-size: 1.18rem;
+  line-height: 1.55;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.pro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.pro-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+}
+
+.pro-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0f172a;
+  font-size: 1.1rem;
+}
+
+.pro-card ul {
+  margin-bottom: 0;
+}
+
+.pro-card a {
+  font-weight: 600;
+}
