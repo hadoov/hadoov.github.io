@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 :root {
-  --bg: #9aa7bc;
-  --sheet: #f8f8fb;
-  --ink: #2b2f42;
-  --muted: #6f758e;
-  --accent: #6a4ad9;
-  --line: #d8d9e5;
+  --bg: #858680;
+  --sheet: #fbfaf7;
+  --ink: #252321;
+  --muted: #6f6a64;
+  --accent: #a86635;
+  --line: #ddd5cc;
+  --panel: #f2f3f1;
 }
 
 html,
 body {
-  background: var(--bg);
+  background: linear-gradient(135deg, #777872 0%, var(--bg) 42%, #a8a59d 100%);
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--ink);
   margin: 0;
@@ -33,9 +34,9 @@ body {
 .resume-sheet {
   width: min(100%, 860px);
   background: var(--sheet);
-  border: 1px solid #cfd3e2;
+  border: 1px solid #d3ccc4;
   border-radius: 14px;
-  box-shadow: 0 14px 32px rgba(23, 27, 44, 0.12);
+  box-shadow: 0 16px 34px rgba(37, 35, 33, 0.18);
   padding: 28px 30px;
 }
 
@@ -52,8 +53,8 @@ body {
   display: block;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #ebeaf5;
-  box-shadow: 0 8px 22px rgba(43, 47, 66, 0.16);
+  border: 3px solid #eee7df;
+  box-shadow: 0 8px 22px rgba(81, 61, 45, 0.22);
 }
 
 .resume-header h1 {
@@ -67,7 +68,7 @@ body {
 
 .resume-title {
   margin: 0 0 10px;
-  color: #4f5670;
+  color: #5c5751;
   font-size: 1rem;
 }
 
@@ -92,7 +93,7 @@ body {
 }
 
 .contact-line .sep {
-  color: #a5abc0;
+  color: #b3aaa0;
 }
 
 .resume-section {
@@ -127,7 +128,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 1.07rem;
   font-weight: 700;
-  color: #2e334a;
+  color: #302d2a;
 }
 
 .job-top h3 a {
@@ -142,7 +143,7 @@ body {
 .job-date {
   margin: 0;
   white-space: nowrap;
-  color: #8890a9;
+  color: #837970;
   font-size: 0.88rem;
   font-weight: 600;
 }
@@ -160,7 +161,7 @@ body {
 
 .job li {
   margin: 3px 0;
-  color: #464d67;
+  color: #4b4741;
   line-height: 1.45;
 }
 
@@ -173,7 +174,7 @@ body {
 .resume-section p {
   margin: 0 0 8px;
   line-height: 1.45;
-  color: #434b66;
+  color: #47433e;
 }
 
 .resume-section ul {
@@ -183,7 +184,7 @@ body {
 
 .resume-section li {
   margin: 4px 0;
-  color: #434b66;
+  color: #47433e;
   line-height: 1.45;
 }
 
@@ -198,8 +199,8 @@ body {
 
 .project-item {
   padding: 9px 10px;
-  background: #f2f3f9;
-  border: 1px solid #e2e4ef;
+  background: var(--panel);
+  border: 1px solid #e2ddd6;
   border-radius: 8px;
 }
 
@@ -216,12 +217,12 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 0.98rem;
   line-height: 1.3;
-  color: #2e334a;
+  color: #302d2a;
 }
 
 .project-head span {
   white-space: nowrap;
-  color: #8890a9;
+  color: #837970;
   font-size: 0.82rem;
   font-weight: 600;
 }
