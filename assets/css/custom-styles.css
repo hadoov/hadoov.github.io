@@ -39,6 +39,23 @@ body {
   padding: 28px 30px;
 }
 
+.resume-header {
+  display: grid;
+  grid-template-columns: 118px 1fr;
+  gap: 18px;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 118px;
+  height: 118px;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ebeaf5;
+  box-shadow: 0 8px 22px rgba(43, 47, 66, 0.16);
+}
+
 .resume-header h1 {
   margin: 0 0 4px;
   color: var(--accent);
@@ -220,6 +237,16 @@ body {
 @media (max-width: 900px) {
   body {
     padding: 22px 12px;
+  }
+
+  .resume-header {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .contact-line {
+    justify-content: center;
   }
 
   .resume-sheet {
