@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hadoov.github.io/sitemap.xml
