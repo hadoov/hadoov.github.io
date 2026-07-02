@@ -350,6 +350,7 @@ body {
 
 .essay-sheet {
   max-width: 760px;
+  overflow: hidden;
 }
 
 .essay-header {
@@ -377,12 +378,16 @@ body {
 
 .essay-figure {
   margin: 0 0 24px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .essay-figure img {
-  width: 100%;
+  inline-size: 100%;
+  max-inline-size: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
   border: 1px solid #e2ddd6;
   border-radius: 8px;
   background: #fff;
