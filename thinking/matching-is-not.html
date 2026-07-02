@@ -40,6 +40,13 @@
       "dateModified": "2026-07-01"
     }
   </script>
+  <script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 <body>
 <main class="resume-wrap">
@@ -147,6 +154,134 @@
       </ul>
       <p>And most importantly: will this interaction create value for both sides?</p>
       <p>That is the real work of matching in a two-sided marketplace.</p>
+
+  <h2>A slightly geeky way to say it</h2>
+
+  <p>
+    If we wanted to describe matching in a simple mathematical way, the wrong version would look like this:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} \neq \arg\max_{s \in S} \text{score}(d, s)
+    \]
+  </p>
+
+  <p>
+    Where \(d\) is the demand side, for example a customer or client, and \(s\) is the supply side, for example a provider or worker.
+  </p>
+
+  <p>
+    In plain English: matching is not just picking the provider with the highest score for a customer.
+  </p>
+
+  <p>
+    It is also not:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} \neq \text{Search}(d)
+    \]
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} \neq \text{Ranking}(S)
+    \]
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} \neq \text{Personalisation}(d)
+    \]
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} \neq \max |S|
+    \]
+  </p>
+
+  <p>
+    More options do not automatically mean a better match. In fact, too many options can reduce confidence and make decisions harder.
+  </p>
+
+  <p>
+    A better way to think about matching is:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Match}(d, s) =
+    f(\text{fit}, \text{availability}, \text{trust}, \text{constraints}, \text{incentives}, \text{willingness})
+    \]
+  </p>
+
+  <p>
+    Or, even more simply:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Good Match} =
+    \text{Mutual Fit}
+    \times
+    \text{Availability}
+    \times
+    \text{Trust}
+    \times
+    \text{Willingness to Act}
+    \]
+  </p>
+
+  <p>
+    The multiplication is intentional. If any critical part is close to zero, the whole match becomes weak.
+  </p>
+
+  <p class="equation">
+    \[
+    \text{High Customer Fit} \times 0 \text{ Provider Interest} = 0 \text{ Real Match}
+    \]
+  </p>
+
+  <p>
+    This is why a recommendation that one side loves but the other side ignores is not really a match. It is just a recommendation with optimism.
+  </p>
+
+  <p>
+    A successful marketplace match needs both sides to have enough reason to move forward:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Successful Match}(d, s) =
+    \begin{cases}
+    1, & \text{if both sides are willing and able to proceed} \\
+    0, & \text{otherwise}
+    \end{cases}
+    \]
+  </p>
+
+  <p>
+    So the simplest formula may be:
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Matching} = \text{fit that can actually happen}
+    \]
+  </p>
+
+  <p>
+    The best matching systems are not the ones that maximise clicks, lists, or recommendations. They are the ones that increase the probability of a good interaction between both sides of the marketplace.
+  </p>
+
+  <p class="equation">
+    \[
+    \text{Great Matching} \Rightarrow P(\text{good outcome for both sides}) \uparrow
+    \]
+  </p>
     </section>
   </article>
 </main>
