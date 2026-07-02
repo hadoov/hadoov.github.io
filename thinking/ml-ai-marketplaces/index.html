@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hadi Valipour on where ML and AI help in two-sided marketplaces, where they do not, and how to combine prediction, rules, decisions, actions, and feedback.">
+  <meta name="author" content="Hadi Valipour">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hadoov.github.io/thinking/ml-ai-marketplaces/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Hadi Valipour">
+  <meta property="og:title" content="Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't">
+  <meta property="og:description" content="A practical guide to where ML and AI help in marketplaces: demand, supply, search, ranking, operations, trust, liquidity, pricing, support, and where rules or human judgement matter more.">
+  <meta property="og:url" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/">
+  <meta property="og:image" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png">
+  <meta property="article:author" content="Hadi Valipour">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't">
+  <meta name="twitter:description" content="A practical guide to where ML and AI help in marketplaces, and where rules, product thinking, or human judgement matter more.">
+  <meta name="twitter:image" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png">
+
+  <title>Where ML and AI Help in Two-Sided Marketplaces | Hadi Valipour</title>
+  <link rel="stylesheet" href="../../assets/css/custom-styles.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't",
+      "description": "A practical guide to where ML and AI help in marketplaces, and where rules, product thinking, or human judgement matter more.",
+      "author": {
+        "@type": "Person",
+        "name": "Hadi Valipour",
+        "url": "https://hadoov.github.io/"
+      },
+      "image": "https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png",
+      "mainEntityOfPage": "https://hadoov.github.io/thinking/ml-ai-marketplaces/",
+      "datePublished": "2026-07-02",
+      "dateModified": "2026-07-02"
+    }
+  </script>
+</head>
+<body>
+<main class="resume-wrap">
+  <article class="resume-sheet essay-sheet">
+    <nav class="site-tabs" aria-label="Primary navigation">
+      <a class="site-tab" href="/">Home</a>
+      <a class="site-tab active" href="/thinking/">Thinking</a>
+    </nav>
+
+    <header class="essay-header">
+      <p class="essay-kicker">Selected Thinking</p>
+      <h1>Don't Hide Marketplace Problems in a Model</h1>
+      <p>From my experience working with two-sided marketplaces, one thing has become very clear to me: AI is useful in many parts of the marketplace, but it should not be treated as a magic layer that can solve every marketplace problem.</p>
+    </header>
+
+    <figure class="essay-figure">
+      <img src="ml-ai-marketplaces_1.png" alt="Hand-drawn chart about when AI helps in two-sided marketplaces and when it automates confusion">
+      <figcaption>A useful warning sign: when the rules are vague, AI can make the confusion faster.</figcaption>
+    </figure>
+
+    <section class="essay-content">
+      <p>A two-sided marketplace is a living system. There is demand on one side, supply on the other, and a lot of friction in between. Customers need something. Providers, workers, sellers, hosts, or suppliers have their own preferences, capacity, incentives, and constraints. The platform sits in the middle and tries to create trust, liquidity, quality, and sustainable growth.</p>
+      <p>That means marketplace problems are rarely just technical problems.</p>
+      <p>They are usually a mix of prediction, ranking, search, operations, pricing, trust and safety, supply and demand balance, incentives, policy, user experience, and long-term marketplace health.</p>
+      <p>This is why I think the best use of ML and AI in two-sided marketplaces is not to "let the model decide everything". The best use is to help the marketplace become more aware and more responsive.</p>
+      <p>Aware of demand. Aware of supply. Aware of friction. Aware of risk. Aware of intent. Aware of quality. Aware of where human intervention is needed.</p>
+
+      <blockquote class="essay-quote">
+        <p>ML is good at predicting signals. AI is good at understanding messy context. But marketplace strategy still needs human judgement, product thinking, and clear rules.</p>
+      </blockquote>
+
+      <h2>The mistake: treating every marketplace problem as an AI problem</h2>
+      <p>There is a common pattern I have seen: once a company becomes excited about AI, everything starts to look like an AI problem.</p>
+      <p>Sometimes that is right. But often the real problem is not the lack of AI.</p>
+      <p>The real problem may be unclear product rules, poor data quality, weak operational process, insufficient supply, low demand intent, bad incentives, unclear ownership, lack of trust, or a marketplace policy that has not been properly defined.</p>
+      <p>AI can make a good marketplace system smarter. But it can also make a confused system more confusing.</p>
+      <p>Before using ML or AI, I like to ask:</p>
+      <blockquote class="essay-quote">
+        <p>Is this a prediction problem, a decision problem, an operations problem, a policy problem, or a user experience problem?</p>
+      </blockquote>
+      <p>That question matters because each type of problem needs a different solution.</p>
+
+      <h2>Where ML and AI are usually useful</h2>
+
+      <h3>1. Understanding demand</h3>
+      <p>Demand is often messy. Customers do not always know how to describe what they need. They may write incomplete job descriptions, use vague language, skip important fields, or express needs in a way that does not fit the platform's taxonomy.</p>
+      <p>AI can help with extracting intent from text, classifying customer needs, identifying missing information, mapping free text to structured categories, detecting urgency, suggesting better questions, improving search queries, and helping customers describe their needs more clearly.</p>
+      <p>Useful model types include large language models, text classifiers, embedding models, named entity extraction, intent classification models, and retrieval-augmented generation for support and guidance.</p>
+      <p>Soft preferences can be inferred. Hard requirements should be checked.</p>
+
+      <h3>2. Understanding supply</h3>
+      <p>The supply side is just as important as the demand side. In many marketplaces, the platform does not fully understand its supply. A provider may have a profile, but the profile may be outdated, incomplete, too generic, or not reflective of their real preferences.</p>
+      <p>AI and ML can help understand provider skills, availability patterns, service preferences, location coverage, response behaviour, quality signals, historical performance, churn risk, acceptance likelihood, and whether a provider is underused or overloaded.</p>
+      <p>This is an underrated area. A lot of marketplace teams focus heavily on demand conversion, but supply understanding is just as important. If the platform does not understand its supply, it cannot create a reliable customer experience.</p>
+
+      <h3>3. Search and discovery</h3>
+      <p>Search is one of the most obvious areas where ML and AI can help. In simple marketplaces, keyword search and filters may be enough. But as the marketplace grows, search becomes more complex.</p>
+      <p>AI can improve search through semantic search, query understanding, synonym expansion, personalised search, hybrid search using both keywords and embeddings, and ranking based on behavioural and quality signals.</p>
+      <p>My view is that semantic search is very useful, but it should not replace structured filters. The strongest systems usually combine both.</p>
+      <p>Use filters and rules for things that must be true. Use AI and ML for relevance, intent, and ranking.</p>
+
+      <h3>4. Ranking and recommendation</h3>
+      <p>Ranking is one of the strongest ML use cases in two-sided marketplaces. Once the platform has a set of possible options, it needs to decide what to show first, what to recommend, or what to prioritise.</p>
+      <p>ML can help estimate probability of conversion, probability of response, probability of acceptance, expected quality, cancellation likelihood, complaint likelihood, customer satisfaction, provider satisfaction, and expected marketplace value.</p>
+      <p>In my experience, boosted tree models are often a very strong starting point. Marketplace data is usually tabular, behavioural, messy, and full of useful engineered features. Boosted trees work very well in that environment and are easier to debug than many deep models.</p>
+      <p>The risk is when ranking optimises only one metric. A ranking model that improves short-term conversion may still create long-term problems. Ranking is not just an ML problem. It is also a marketplace design problem.</p>
+
+      <h3>5. Marketplace operations</h3>
+      <p>A lot of marketplace value is created in operations: identifying jobs or requests at risk, prioritising manual intervention, routing work to the right operations team, detecting stuck journeys, recommending the next best action, summarising context for agents, and reducing repetitive manual work.</p>
+      <p>This is one of the best places to use AI, especially because the goal is often not full automation. The goal is better human leverage.</p>
+      <div class="essay-equation" aria-label="Priority equals a function of risk, value, urgency, and effort">
+        \[
+          \mathrm{Priority} = f(\mathrm{Risk}, \mathrm{Value}, \mathrm{Urgency}, \mathrm{Effort})
+        \]
+      </div>
+      <p>The model does not need to own the whole process. It just needs to make the human process more focused.</p>
+
+      <h3>6. Trust, safety, and moderation</h3>
+      <p>Trust is core infrastructure in a two-sided marketplace. If customers do not trust the supply side, they will not transact. If providers do not trust the platform or the demand side, they will leave. If bad behaviour is not detected early, the whole marketplace can suffer.</p>
+      <p>ML and AI can help with fraud detection, spam detection, unsafe message detection, suspicious behaviour detection, fake profile detection, policy violation classification, complaint triage, moderation queue prioritisation, and summarising evidence for review.</p>
+      <p>This is an area where I would be cautious about full automation. False positives can unfairly punish good users. False negatives can create serious harm. AI can support trust and safety. It should not become an invisible judge.</p>
+
+      <h3>7. Forecasting liquidity</h3>
+      <p>A marketplace is not only a set of individual user journeys. It is also a system of supply and demand.</p>
+      <p>Liquidity changes by region, category, time of day, day of week, season, price, customer segment, provider segment, and external conditions.</p>
+      <p>ML can help forecast demand volume, supply availability, expected shortage, expected over-supply, response time pressure, fulfilment risk, cancellation pressure, and operational workload.</p>
+      <p>This is one of the most valuable uses of ML because it helps the marketplace become proactive rather than reactive.</p>
+      <blockquote class="essay-quote">
+        <p>A platform should not only ask: "What happened?" It should also ask: "Where is the marketplace about to become unhealthy?"</p>
+      </blockquote>
+
+      <h3>8. Pricing and incentives</h3>
+      <p>Pricing is one of the hardest areas in two-sided marketplaces. Incentives can help balance supply and demand, but they can also create bad behaviour if designed poorly.</p>
+      <p>ML can help estimate price sensitivity, supply elasticity, demand elasticity, likelihood of conversion at different price points, provider response to incentives, customer response to discounts, and the impact of incentives on retention or quality.</p>
+      <p>This is not an area where I would blindly use black-box optimisation. Pricing and incentives affect trust, fairness, earnings, affordability, and marketplace perception. The model can estimate likely impact. The business still needs to decide what is acceptable.</p>
+
+      <h3>9. Customer and provider support</h3>
+      <p>Support is another strong use case for AI. Marketplaces generate a lot of repetitive, context-heavy support work. Users ask similar questions, but each case has slightly different context.</p>
+      <p>AI can help with drafting responses, summarising conversations, retrieving policy information, suggesting next steps, classifying support tickets, detecting sentiment, identifying escalation risk, and helping agents understand history quickly.</p>
+      <p>This is a good area for copilots. AI can improve speed and consistency, but support still needs guardrails, especially when policies, payments, safety, or complaints are involved.</p>
+
+      <h2>Where ML and AI are usually not the right answer</h2>
+
+      <h3>1. When the rules are not clear</h3>
+      <p>If the business does not know what should happen, AI will not magically fix that. Questions about prioritisation, fair exposure, acceptable risk, escalation, edge-case policy, and trade-offs need product and business clarity first.</p>
+      <p>AI can help once the decision framework is clear. But if the rules are vague, the model may only automate the confusion.</p>
+
+      <h3>2. When deterministic rules are required</h3>
+      <p>Some things should not be predicted. They should be checked: eligibility, compliance, identity verification, licence requirements, payment rules, legal conditions, and safety exclusions.</p>
+      <blockquote class="essay-quote">
+        <p>Rules are for what must be true. ML is for what is likely to be true.</p>
+      </blockquote>
+      <p>If the answer needs to be certain, auditable, and explainable, use rules. Do not hide it inside a model.</p>
+
+      <h3>3. When the data is not ready</h3>
+      <p>ML depends on data quality. If the platform has missing labels, inconsistent definitions, biased historical data, poor instrumentation, or unclear outcomes, the model will reflect those problems.</p>
+      <p>Common data issues include incomplete supply profiles, inconsistent customer inputs, biased historical exposure, missing negative outcomes, unclear success labels, poor tracking of manual interventions, offline decisions not captured in data, and feedback loops created by previous ranking systems.</p>
+      <p>In these cases, the first job may not be modelling. It may be instrumentation, taxonomy, data cleaning, or process design.</p>
+
+      <h3>4. When the decision is high-stakes and not reviewable</h3>
+      <p>AI should be used carefully when the decision affects someone's income, safety, access, or reputation.</p>
+      <p>AI may help with triage, summarisation, and recommendations. But final decisions often need review, policy, and accountability.</p>
+
+      <h3>5. When the metric is too narrow</h3>
+      <p>This is one of the biggest risks in marketplace ML. A model can improve one metric and damage the system.</p>
+      <p>In marketplaces, local optimisation can create global harm. That is why evaluation needs to include both sides of the marketplace, not just one funnel metric.</p>
+
+      <h2>What model works better for what?</h2>
+      <p>Here is the practical model map I use.</p>
+      <div class="essay-table-wrap">
+        <table class="essay-table">
+          <thead>
+            <tr>
+              <th>Marketplace problem</th>
+              <th>Useful model type</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Customer intent understanding</td><td>LLMs, text classifiers, embeddings</td><td>Good for messy text and unstructured needs</td></tr>
+            <tr><td>Supply understanding</td><td>Classification, clustering, embeddings</td><td>Helps understand provider skills, preferences, and behaviour</td></tr>
+            <tr><td>Search</td><td>Semantic search, hybrid search, two-tower models</td><td>Helps users find relevant supply even with imperfect queries</td></tr>
+            <tr><td>Ranking</td><td>GBDT, learning-to-rank, calibrated classifiers</td><td>Strong for marketplace behavioural and tabular data</td></tr>
+            <tr><td>Conversion prediction</td><td>Logistic regression, GBDT, calibrated models</td><td>Useful for simple, measurable outcomes</td></tr>
+            <tr><td>Response or acceptance prediction</td><td>Calibrated classifiers, survival models</td><td>Helps estimate whether an interaction is likely to progress</td></tr>
+            <tr><td>Cancellation or no-show risk</td><td>Classification, survival models</td><td>Useful for operational risk management</td></tr>
+            <tr><td>Churn prediction</td><td>GBDT, survival models, sequence models</td><td>Helps detect users or providers likely to leave</td></tr>
+            <tr><td>Intervention targeting</td><td>Uplift models, causal inference</td><td>Better than predicting risk alone</td></tr>
+            <tr><td>Pricing and incentives</td><td>Causal models, elasticity models, bandits</td><td>Useful when action impact matters</td></tr>
+            <tr><td>Trust and safety</td><td>Rules, classifiers, anomaly detection, graph ML</td><td>Good for risk detection and queue prioritisation</td></tr>
+            <tr><td>Support automation</td><td>LLMs with retrieval and guardrails</td><td>Good for drafting, summarising, and retrieving policy</td></tr>
+            <tr><td>Demand and supply forecasting</td><td>Time-series, hierarchical forecasting</td><td>Helps manage liquidity proactively</td></tr>
+            <tr><td>Scheduling and allocation</td><td>Optimisation plus ML predictions</td><td>Better for constrained operational decisions</td></tr>
+            <tr><td>Policy and strategy</td><td>Human decision-making with data support</td><td>Requires judgement, values, and accountability</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>A simple way to think about it</h2>
+      <p>Most marketplace AI problems can be broken into four layers:</p>
+      <div class="essay-equation" aria-label="Signal leads to decision, decision leads to action, action leads to feedback">
+        \[
+          \mathrm{Signal} \rightarrow \mathrm{Decision} \rightarrow \mathrm{Action} \rightarrow \mathrm{Feedback}
+        \]
+      </div>
+      <p>ML is strongest in the signal layer. It can predict conversion, response, churn, risk, quality, and future behaviour.</p>
+      <p>But the decision layer is different.</p>
+      <div class="essay-equation" aria-label="Decision equals a function of prediction, rules, constraints, objective, and policy">
+        \[
+          \mathrm{Decision} = f(\mathrm{Prediction}, \mathrm{Rules}, \mathrm{Constraints}, \mathrm{Objective}, \mathrm{Policy})
+        \]
+      </div>
+      <p>This is where many marketplace AI systems go wrong. They treat prediction as if it is the decision.</p>
+      <p>A high predicted conversion does not automatically mean the platform should prioritise that option. The platform may also need to consider fairness, quality, risk, supply pressure, user trust, and long-term liquidity.</p>
+
+      <h2>My preferred pattern</h2>
+      <h3>1. Use rules for hard constraints</h3>
+      <p>Anything legal, safety-related, eligibility-based, or non-negotiable should be explicit.</p>
+      <h3>2. Use ML for prediction</h3>
+      <p>Use models to estimate likelihood, risk, quality, intent, and future behaviour.</p>
+      <h3>3. Use optimisation or product logic for decisions</h3>
+      <p>Do not expect the model score to be the whole decision. Combine the score with rules, constraints, business priorities, and user experience.</p>
+      <h3>4. Use humans for judgement-heavy cases</h3>
+      <p>For high-stakes, ambiguous, or sensitive decisions, AI should support humans rather than replace them.</p>
+      <h3>5. Monitor marketplace-level impact</h3>
+      <p>Do not only monitor model accuracy. Monitor marketplace health: demand-side experience, supply-side experience, liquidity, fulfilment, fairness, trust, complaint rate, retention, operational load, and long-term value.</p>
+
+      <h2>Final thought</h2>
+      <p>My view is that AI should not be treated as a separate magic brain sitting on top of the marketplace.</p>
+      <p>It should be treated as part of the marketplace operating system.</p>
+      <p>Sometimes it predicts. Sometimes it retrieves. Sometimes it ranks. Sometimes it summarises. Sometimes it detects risk. Sometimes it helps humans move faster. Sometimes it should stay out of the decision completely.</p>
+      <p>The real skill is knowing which is which.</p>
+      <p>In two-sided marketplaces, the best AI systems are not the ones that automate everything. They are the ones that help the marketplace make better decisions, with clearer signals, better timing, stronger guardrails, and a deeper understanding of both sides.</p>
+    </section>
+  </article>
+</main>
+</body>
+</html>

@@ -375,6 +375,28 @@ body {
   line-height: 1.62;
 }
 
+.essay-figure {
+  margin: 0 0 24px;
+}
+
+.essay-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #e2ddd6;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.essay-figure figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-family: var(--font-support);
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
 .essay-content h2 {
   margin: 28px 0 8px;
   color: #302d2a;
@@ -410,8 +432,56 @@ body {
   content: "- ";
 }
 
+.essay-equation {
+  margin: 18px 0 22px;
+  padding: 14px 16px;
+  background: #f2f3f1;
+  border: 1px solid #e2ddd6;
+  border-radius: 8px;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.essay-equation mjx-container {
+  color: #302d2a;
+  font-size: 0.96rem;
+  margin: 0 !important;
+}
+
 .essay-content ul {
   padding-left: 22px;
+}
+
+.essay-table-wrap {
+  margin: 16px 0 24px;
+  overflow-x: auto;
+}
+
+.essay-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid #e2ddd6;
+  font-family: var(--font-support);
+  font-size: 0.93rem;
+}
+
+.essay-table th,
+.essay-table td {
+  padding: 9px 10px;
+  border: 1px solid #e2ddd6;
+  text-align: left;
+  vertical-align: top;
+}
+
+.essay-table th {
+  color: #302d2a;
+  background: #f6eee7;
+  font-weight: 700;
+}
+
+.essay-table td {
+  color: #47433e;
 }
 
 .resume-section a {
