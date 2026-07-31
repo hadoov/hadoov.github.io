@@ -376,6 +376,15 @@ body {
   line-height: 1.62;
 }
 
+.essay-header .essay-date {
+  margin: -2px 0 14px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 .essay-figure {
   margin: 0 0 24px;
   max-width: 100%;
@@ -408,6 +417,31 @@ body {
   font-family: var(--font-display);
   font-size: 1.22rem;
   font-weight: 400;
+}
+
+.essay-content a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.essay-related,
+.essay-author {
+  margin-top: 28px;
+  padding: 16px 18px;
+  border: 1px solid #e2ddd6;
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.essay-related h2,
+.essay-author h2 {
+  margin-top: 0;
+}
+
+.essay-related p:last-child,
+.essay-author p:last-child {
+  margin-bottom: 0;
 }
 
 .essay-quote {

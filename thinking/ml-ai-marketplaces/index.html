@@ -3,26 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hadi Valipour on where ML and AI help in two-sided marketplaces, where they do not, and how to combine prediction, rules, decisions, actions, and feedback.">
+  <meta name="description" content="A practical essay on where machine learning and AI help in two-sided marketplaces, including matching, ranking, operations, trust, pricing, support, liquidity, and where human judgement still matters.">
   <meta name="author" content="Hadi Valipour">
+  <meta name="keywords" content="two-sided marketplaces, marketplace AI, machine learning, ranking, matching, marketplace operations, trust and safety, liquidity, pricing, AI strategy, data science">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://hadoov.github.io/thinking/ml-ai-marketplaces/">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Hadi Valipour">
   <meta property="og:title" content="Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't">
-  <meta property="og:description" content="A practical guide to where ML and AI help in marketplaces: demand, supply, search, ranking, operations, trust, liquidity, pricing, support, and where rules or human judgement matter more.">
+  <meta property="og:description" content="A practical essay on where machine learning and AI help in two-sided marketplaces, including matching, ranking, operations, trust, pricing, support, liquidity, and where human judgement still matters.">
   <meta property="og:url" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/">
   <meta property="og:image" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png">
   <meta property="article:author" content="Hadi Valipour">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't">
-  <meta name="twitter:description" content="A practical guide to where ML and AI help in marketplaces, and where rules, product thinking, or human judgement matter more.">
+  <meta name="twitter:description" content="A practical essay on where machine learning and AI help in two-sided marketplaces, and where human judgement still matters.">
   <meta name="twitter:image" content="https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png">
 
   <title>Where ML and AI Help in Two-Sided Marketplaces | Hadi Valipour</title>
-  <link rel="stylesheet" href="../../assets/css/custom-styles.css?v=20260702">
+  <link rel="stylesheet" href="../../assets/css/custom-styles.css?v=20260730">
   <script>
     window.MathJax = {
       tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] }
@@ -34,7 +35,20 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Where ML and AI Help in Two-Sided Marketplaces - and Where They Don't",
-      "description": "A practical guide to where ML and AI help in marketplaces, and where rules, product thinking, or human judgement matter more.",
+      "description": "A practical essay on where machine learning and AI help in two-sided marketplaces, including matching, ranking, operations, trust, pricing, support, liquidity, and where human judgement still matters.",
+      "keywords": [
+        "two-sided marketplaces",
+        "marketplace AI",
+        "machine learning",
+        "ranking",
+        "matching",
+        "marketplace operations",
+        "trust and safety",
+        "liquidity",
+        "pricing",
+        "AI strategy",
+        "data science"
+      ],
       "author": {
         "@type": "Person",
         "name": "Hadi Valipour",
@@ -43,7 +57,7 @@
       "image": "https://hadoov.github.io/thinking/ml-ai-marketplaces/ml-ai-marketplaces_1.png",
       "mainEntityOfPage": "https://hadoov.github.io/thinking/ml-ai-marketplaces/",
       "datePublished": "2026-07-02",
-      "dateModified": "2026-07-02"
+      "dateModified": "2026-07-04T00:00:00+10:00"
     }
   </script>
 </head>
@@ -58,6 +72,7 @@
     <header class="essay-header">
       <p class="essay-kicker">Selected Thinking</p>
       <h1>Don't Hide Marketplace Problems in a Model</h1>
+      <p class="essay-date">Published July 2026 · Updated July 2026</p>
       <p>From my experience working with two-sided marketplaces, one thing has become very clear to me: AI is useful in many parts of the marketplace, but it should not be treated as a magic layer that can solve every marketplace problem.</p>
     </header>
 
@@ -111,7 +126,7 @@
       <p>Ranking is one of the strongest ML use cases in two-sided marketplaces. Once the platform has a set of possible options, it needs to decide what to show first, what to recommend, or what to prioritise.</p>
       <p>ML can help estimate probability of conversion, probability of response, probability of acceptance, expected quality, cancellation likelihood, complaint likelihood, customer satisfaction, provider satisfaction, and expected marketplace value.</p>
       <p>In my experience, boosted tree models are often a very strong starting point. Marketplace data is usually tabular, behavioural, messy, and full of useful engineered features. Boosted trees work very well in that environment and are easier to debug than many deep models.</p>
-      <p>The risk is when ranking optimises only one metric. A ranking model that improves short-term conversion may still create long-term problems. Ranking is not just an ML problem. It is also a marketplace design problem.</p>
+      <p>The risk is when ranking optimises only one metric. A ranking model that improves short-term conversion may still create long-term problems. Ranking is not just an ML problem. It is also a marketplace design problem. For a deeper view on this distinction, see <a href="/thinking/matching-is-not/">What Matching Is Not in Two-Sided Marketplaces</a>.</p>
 
       <h3>5. Marketplace operations</h3>
       <p>A lot of marketplace value is created in operations: identifying jobs or requests at risk, prioritising manual intervention, routing work to the right operations team, detecting stuck journeys, recommending the next best action, summarising context for agents, and reducing repetitive manual work.</p>
@@ -239,6 +254,17 @@
       <p>Sometimes it predicts. Sometimes it retrieves. Sometimes it ranks. Sometimes it summarises. Sometimes it detects risk. Sometimes it helps humans move faster. Sometimes it should stay out of the decision completely.</p>
       <p>The real skill is knowing which is which.</p>
       <p>In two-sided marketplaces, the best AI systems are not the ones that automate everything. They are the ones that help the marketplace make better decisions, with clearer signals, better timing, stronger guardrails, and a deeper understanding of both sides.</p>
+
+      <aside class="essay-related" aria-label="Related reading">
+        <h2>Related Reading</h2>
+        <p><a href="/thinking/matching-is-not/">What Matching Is Not in Two-Sided Marketplaces</a></p>
+        <p><a href="/thinking/measuring-ai-value/">The Annoying Problem of Measuring AI Value</a></p>
+      </aside>
+
+      <aside class="essay-author" aria-label="About the author">
+        <h2>About The Author</h2>
+        <p>Hadi Valipour is an AI and Data Science leader working on marketplace AI, matching systems, agentic AI systems, and production machine learning.</p>
+      </aside>
     </section>
   </article>
 </main>
